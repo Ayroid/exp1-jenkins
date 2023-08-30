@@ -1,6 +1,6 @@
 package mypkg;
 
-public class myCalculator {
+public class MyCalculator {
     public int add(int a, int b) {
         return a + b;
     }
@@ -10,7 +10,7 @@ public class myCalculator {
     }
 
     public static void main(String[] args) {
-        myCalculator myCalc = new myCalculator();
+        MyCalculator myCalc = new MyCalculator();
         System.out.println(myCalc.add(1, 2));
         System.out.println(myCalc.subtract(1, 2));
     }
